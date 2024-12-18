@@ -54,6 +54,7 @@ POLLUTANTS = ["TVOC", "NH3", "NO", "H2", "PM25", "H2S", "CO", "HCL",
 
 # ---------- Initialize Dash App ----------
 app = Dash(__name__)
+server = dashboard_1:server
 app.title = "Unified Air Quality Monitoring Dashboard"
 
 # ---------- Layout ----------
